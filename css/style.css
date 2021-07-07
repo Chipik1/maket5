@@ -1,14 +1,61 @@
+@font-face {
+  font-family: "quicksandlight";
+  src: url("fonts/quicksand-variablefont_wght-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "source_sans_proregular";
+  src: url("fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-}
-.wrapper img {
+header {
+  background-image: url("../img/bg_806.png");
   width: 100%;
   height: 640px;
+}
+header .nav-menu {
+  padding-top: 22px;
+  padding-left: 132px;
+  padding-right: 132px;
+}
+header .nav-menu .col-2 .logo {
+  display: flex;
+  align-items: center;
+}
+header .nav-menu .col-2 .logo span {
+  color: white;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 24px;
+  line-height: 58px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+header .nav-menu .col-2 .logo span:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  width: 44px;
+  padding-left: 5px;
+  opacity: 0.3;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 9px;
+  line-height: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header .nav-menu .col-5 a {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 16px;
+  line-height: 56px;
+  font-weight: 600;
+  color: #fffefe;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
