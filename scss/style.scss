@@ -24,9 +24,12 @@ header{
     padding-left: 132px;
     padding-right: 132px;
     .col-2{
+      padding-right: 0;
+      padding-left: 0;
       .logo{
         display: flex;
         align-items: center;
+        padding-left: 15px;
         span{
           color: white;
           font-family: source_sans_proregular,sans-serif;
@@ -61,4 +64,38 @@ header{
       }
     }
   }
+  .lucid-theme{
+    display: flex;
+    width: 1170px;
+    .col-5 title{
+      padding-right: 0;
+      padding-left: 0;
+    }
+    h2{
+      font-family: source_sans_proregular,sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #008ed6;
+      padding-left: 120px;
+      padding-top: 77px;
+      letter-spacing: 0.2px;
+      padding-bottom: 0;
+    }
+    span{
+      font-family: source_sans_proregular,sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+    .col-5 image{
+      img{
+        height:519px;
+        width:505px;
+      }
+    }
+  }
 }
+

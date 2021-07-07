@@ -25,9 +25,14 @@ header .nav-menu {
   padding-left: 132px;
   padding-right: 132px;
 }
+header .nav-menu .col-2 {
+  padding-right: 0;
+  padding-left: 0;
+}
 header .nav-menu .col-2 .logo {
   display: flex;
   align-items: center;
+  padding-left: 15px;
 }
 header .nav-menu .col-2 .logo span {
   color: white;
@@ -57,5 +62,36 @@ header .nav-menu .col-5 a {
   font-weight: 600;
   color: #fffefe;
   margin-left: 10px;
+}
+header .lucid-theme {
+  display: flex;
+  width: 1170px;
+}
+header .lucid-theme .col-5 title {
+  padding-right: 0;
+  padding-left: 0;
+}
+header .lucid-theme h2 {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #008ed6;
+  padding-left: 120px;
+  padding-top: 77px;
+  letter-spacing: 0.2px;
+  padding-bottom: 0;
+}
+header .lucid-theme span {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+header .lucid-theme .col-5 image img {
+  height: 519px;
+  width: 505px;
 }
 /*# sourceMappingURL=style.css.map */
