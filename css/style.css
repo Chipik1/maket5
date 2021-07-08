@@ -155,5 +155,94 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+.overview-wrapper .container {
+  display: flex;
+  justify-content: center;
+}
+.overview-wrapper .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 38px;
+}
+.overview-wrapper .container .title h1 {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: #008ed6;
+  margin-right: 18px;
+}
+.overview-wrapper .container .title span {
+  font-size: 33px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.6px;
+  color: #1a1a1a;
+  margin-top: -17px;
+  margin-left: -18px;
+}
+.overview-wrapper .container-img {
+  padding-top: 102px;
+  padding-left: 136px;
+  padding-right: 150px;
+}
+.overview-wrapper .container-img .col-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.overview-wrapper .container-img .col-3 .elipse {
+  width: 90px;
+  height: 90px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  margin-top: 1px;
+}
+.overview-wrapper .container-img .col-3 span {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #1a1a1a;
+  text-align: center;
+  margin-top: 32px;
+  letter-spacing: -1px;
+  margin-left: -9px;
+}
+.overview-wrapper .container-img .col-3 span:last-child {
+  font-size: 17px;
+  line-height: 26px;
+  color: #999999;
+  margin-top: 15px;
+  letter-spacing: 0;
+  width: 240px;
+}
+.overview-wrapper .container-img .col-3 .col-3:last-child span {
+  margin-left: -5px;
+  letter-spacing: 0.1px;
+}
+
+.device-wrapper {
+  width: 100%;
+}
+
+.device-container {
+  width: 1170px;
+  padding-top: 134px;
+}
+.device-container .row .col-5 img {
+  width: 504px;
+  height: 610px;
+  margin-left: 138px;
 }
 /*# sourceMappingURL=style.css.map */
