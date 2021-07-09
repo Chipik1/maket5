@@ -476,4 +476,33 @@
   border-top: 2px solid #008ed6;
   margin-left: 0;
 }
+.pricing-container .feedback-container {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+}
+.pricing-container .feedback-container .feed1 {
+  display: flex;
+  justify-content: center;
+}
+.pricing-container .feedback-container .feed1 span {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ffffff;
+}
+.pricing-container .feedback-container .feed2 {
+  display: flex;
+  justify-content: center;
+}
+.pricing-container .feedback-container .feed2 span {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: italic;
+  font-weight: 400;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
