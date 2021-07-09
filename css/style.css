@@ -272,6 +272,19 @@
   letter-spacing: -0.95px;
   color: #1a1a1a;
 }
+.device-container .container .detail-info .line-wrapper {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  width: 40px;
+}
+.device-container .container .detail-info .line-wrapper .lines {
+  width: 19px;
+  display: flex;
+  border-top: 2px solid #008ed6;
+}
 .device-container .container .detail-info .details-text {
   width: 470px;
   font-size: 18px;
@@ -280,7 +293,7 @@
   text-transform: none;
   letter-spacing: -0.5px;
   color: #999999;
-  margin-top: 54px;
+  margin-top: -10px;
 }
 .device-container .container .detail-info .setting {
   margin-top: 16px;
@@ -336,5 +349,116 @@
 }
 .device-container .container .detail-info .setting span:last-child {
   letter-spacing: -0.77px;
+}
+
+.customize-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.customize-container {
+  width: 1170px;
+  margin-top: 130px;
+}
+.customize-container .container .col-5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -44px;
+  margin-left: -18px;
+}
+.customize-container .container .col-5 .details-title {
+  margin-top: 47px;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 13px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #008ed6;
+  letter-spacing: 0.95px;
+  margin-left: 2px;
+}
+.customize-container .container .col-5 span {
+  font-size: 34px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -1.2px;
+  color: #1a1a1a;
+  margin-top: -9px;
+  margin-left: -1px;
+}
+.customize-container .container .col-5 .line-wrapper {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 40px;
+  margin-left: 3px;
+}
+.customize-container .container .col-5 .line-wrapper .lines {
+  width: 19px;
+  display: flex;
+  border-top: 2px solid #008ed6;
+}
+.customize-container .container .col-5 .details-text {
+  width: 461px;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.27px;
+  line-height: 26px;
+  color: #999999;
+  margin-top: -28px;
+  margin-left: 2px;
+}
+.customize-container .container .col-7 img {
+  height: 491px;
+  width: 718px;
+  margin-top: -78px;
+}
+
+.pricing-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-container {
+  width: 100%;
+  background-image: url("../img/prostok_t_4_1101.png");
+  height: 640px;
+  z-index: -1;
+}
+.pricing-container .container {
+  display: flex;
+  justify-content: center;
+}
+.pricing-container .container .col-4 {
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.pricing-container .container .col-4 .text-title {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 14px;
+  line-height: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  color: #008ed6;
+  margin-left: 56px;
+  margin-top: -8px;
+}
+.pricing-container .container .col-4 span {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin-top: -16px;
+  margin-left: 19px;
 }
 /*# sourceMappingURL=style.css.map */
