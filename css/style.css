@@ -461,4 +461,19 @@
   margin-top: -16px;
   margin-left: 19px;
 }
+.pricing-container .container .col-4 .line-wrapper {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  width: 40px;
+  margin-left: 120px;
+}
+.pricing-container .container .col-4 .line-wrapper .lines {
+  width: 19px;
+  display: flex;
+  border-top: 2px solid #008ed6;
+  margin-left: 0;
+}
 /*# sourceMappingURL=style.css.map */
