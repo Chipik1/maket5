@@ -234,15 +234,107 @@
 
 .device-wrapper {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .device-container {
   width: 1170px;
-  padding-top: 134px;
+  margin-top: 130px;
 }
-.device-container .row .col-5 img {
+.device-container .container .col-5 img {
   width: 504px;
   height: 610px;
-  margin-left: 138px;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+.device-container .container .detail-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.device-container .container .detail-info .details-title {
+  margin-top: 38px;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 13px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #008ed6;
+  letter-spacing: 0.95px;
+  margin-left: 2px;
+}
+.device-container .container .detail-info span:nth-child(2) {
+  line-height: 33px;
+  font-size: 34px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.95px;
+  color: #1a1a1a;
+}
+.device-container .container .detail-info .details-text {
+  width: 470px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: -0.5px;
+  color: #999999;
+  margin-top: 54px;
+}
+.device-container .container .detail-info .setting {
+  margin-top: 16px;
+  margin-left: -12px;
+}
+.device-container .container .detail-info .setting .col-1 {
+  display: flex;
+  flex-direction: column;
+}
+.device-container .container .detail-info .setting .col-1 img {
+  margin-top: 19px;
+}
+.device-container .container .detail-info .setting .col-1 img:first-child {
+  margin-left: -2px;
+  width: 16px;
+  height: 16px;
+}
+.device-container .container .detail-info .setting .col-1 img:nth-child(2) {
+  width: 10px;
+  margin-left: 1px;
+  height: 17px;
+}
+.device-container .container .detail-info .setting .col-1 img:nth-child(3) {
+  width: 11px;
+  height: 17px;
+  margin-left: 1px;
+}
+.device-container .container .detail-info .setting .col-1 img:nth-child(4) {
+  width: 16px;
+  height: 15px;
+  margin-left: -2px;
+}
+.device-container .container .detail-info .setting .col-10 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+.device-container .container .detail-info .setting .col-10 span {
+  margin-left: -15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: none;
+  color: #1b1b1b;
+  margin-top: 5.5px;
+  letter-spacing: -0.7px;
+}
+.device-container .container .detail-info .setting .col-10 span:first-child {
+  letter-spacing: -0.95px;
+}
+.device-container .container .detail-info .setting span:nth-child(3) {
+  letter-spacing: -0.8px;
+}
+.device-container .container .detail-info .setting span:last-child {
+  letter-spacing: -0.77px;
 }
 /*# sourceMappingURL=style.css.map */
