@@ -430,6 +430,8 @@
 .pricing-container {
   width: 100%;
   background-image: url("../img/prostok_t_4_1101.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 640px;
   z-index: -1;
 }
@@ -615,5 +617,78 @@
   width: 13px;
   height: 13px;
   border: 0;
+}
+
+.ad-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #15141a;
+}
+.ad-wrapper .ad-container {
+  width: 1170px;
+  margin-top: 79px;
+  margin-left: -6px;
+  margin-bottom: 59px;
+}
+.ad-wrapper .ad-container .row .col-7 span:first-child {
+  font-family: "Source Sans", sans-serif;
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -1.5px;
+  margin-left: 2px;
+  word-spacing: 2px;
+}
+.ad-wrapper .ad-container .row .col-7 span:last-child {
+  letter-spacing: -0.7px;
+  font-family: "Source sans light", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 34px;
+  line-height: 48px;
+  margin-left: -5px;
+}
+.ad-wrapper .ad-container .row .col-5 {
+  padding-right: 0;
+  margin-top: -1px;
+  display: flex;
+}
+.ad-wrapper .ad-container .row .col-5 button:first-child {
+  font-family: source_sans_proregular, sans-serif;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 48px;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 158px;
+  letter-spacing: -1.3px;
+  height: 50px;
+  background-color: rgba(0, 142, 214, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 134px;
+}
+.ad-wrapper .ad-container .row .col-5 button:last-child {
+  font-family: source_sans_proregular, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.4px;
+  color: #ffffff;
+  width: 160px;
+  height: 50px;
+  background-color: #008ed6;
+  box-shadow: 0 0 3px 0 rgba(3, 3, 3, 0.1);
+  margin-left: 21px;
+  border: 0;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=style.css.map */
