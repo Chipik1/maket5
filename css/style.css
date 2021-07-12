@@ -627,7 +627,7 @@
 }
 .ad-wrapper .ad-container {
   width: 1170px;
-  margin-top: 79px;
+  margin-top: 80px;
   margin-left: -6px;
   margin-bottom: 59px;
 }
@@ -690,5 +690,92 @@
   margin-left: 21px;
   border: 0;
   border-radius: 3px;
+}
+
+.plans-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.plans-container {
+  width: 1170px;
+}
+.plans-container .col-4 {
+  margin-top: 43px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -22px;
+}
+.plans-container .col-4 .text-title {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 14px;
+  line-height: 63px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  color: #008ed6;
+  margin-left: 144px;
+  margin-top: -8px;
+}
+.plans-container .col-4 span {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.4px;
+  color: black;
+  margin-top: -16px;
+  margin-left: 107px;
+}
+.plans-container .col-4 .line-wrapper {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  width: 40px;
+  margin-left: 210px;
+}
+.plans-container .col-4 .line-wrapper .lines {
+  width: 19px;
+  display: flex;
+  border-top: 2px solid #008ed6;
+  margin-left: 0;
+}
+.plans-container .row-columns {
+  display: flex;
+  justify-content: center;
+}
+.plans-container .row-columns .col-3 {
+  max-width: 23.9%;
+  padding-right: 24px;
+  margin-right: -8px;
+}
+.plans-container .row-columns .col-3 .row {
+  border: 1px solid;
+  justify-content: center;
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.plans-container .row-columns .col-3 .row:nth-child(3) {
+  font-family: source_sans_proregular, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #999999;
+}
+.plans-container .row-columns .col-3:nth-child(2) {
+  margin-left: 27px;
+}
+.plans-container .row-columns .col-3:nth-child(3) {
+  margin-left: 27px;
+  padding-right: 23px;
+}
+.plans-container .row-columns .col-3:nth-child(4) {
+  margin-left: 28px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -53,7 +53,7 @@
           color: #ffffff;
         }
       }
-    .menu-text{
+.menu-text{
       display: flex;
       justify-content: flex-end;
       margin-top: 45px;
@@ -70,7 +70,6 @@
         text-decoration: none;
       }
     }
-
 .head-text{
   .title{
     display: flex;
@@ -248,7 +247,7 @@
   display: flex;
   justify-content: center;
 }
-  .device-container {
+.device-container {
     width: 1170px;
     margin-top: 132px;
     .container{
@@ -656,7 +655,7 @@
   background-color: #15141a;
   .ad-container{
     width: 1170px;
-    margin-top: 79px;
+    margin-top: 80px;
     margin-left: -6px;
     margin-bottom: 59px;
     .row{
@@ -725,6 +724,94 @@
     }
   }
 }
+.plans-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.plans-container{
+  width: 1170px;
+  .col-4{
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -22px;
+    .text-title{
+      font-family: source_sans_proregular,sans-serif;
+      font-size: 14px;
+      line-height: 63px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.27px;
+      color: #008ed6;
+      margin-left: 144px;
+      margin-top: -8px;
+    }
+    span{
+      font-size: 32px;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: -0.4px;
+      color: black;
+      margin-top: -16px;
+      margin-left: 107px;
+    }
+    .line-wrapper {
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 41px;
+      width: 40px;
+      margin-left: 210px;
+      .lines {
+        width: 19px;
+        display: flex;
+        border-top: 2px solid #008ed6;
+        margin-left: 0;
+      }
+    }
+  }
+  .row-columns{
+    display: flex;
+    justify-content: center;
+    .col-3{
+      max-width: 23.9%;
+      padding-right: 24px;
+      margin-right: -8px;
+      .row{
+        border: 1px solid;
+        justify-content: center;
+        font-family: source_sans_proregular,sans-serif;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #1a1a1a;
+      }
+      .row:nth-child(3){
+        font-family: source_sans_proregular,sans-serif;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #999999;
+      }
+    }
+    .col-3:nth-child(2){
+      margin-left: 27px;
+    }
+    .col-3:nth-child(3){
+      margin-left: 27px;
+      padding-right: 23px;
+    }
+    .col-3:nth-child(4){
+      margin-left: 28px;
+    }
+  }
+}
+
+
+
 
 
 
