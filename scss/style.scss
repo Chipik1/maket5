@@ -1,16 +1,3 @@
-@font-face {
-  font-family: 'quicksandlight';
-  src: url('fonts/quicksand-variablefont_wght-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'source_sans_proregular';
-  src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
-  url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 .nav-wrapper{
   width: 1170px;
 }
@@ -60,13 +47,13 @@
       position: relative;
       left: 29px;
       a{
-        font-family: source_sans_proregular,sans-serif;
+        font-family: "Source Sans",sans-serif;
         font-size: 16px;
         line-height: 10px;
         font-weight: 600;
-        letter-spacing: -0.5px;
+        letter-spacing: 0.1px;
         color: #fffefe;
-        margin-left: 20px;
+        margin-left: 24px;
         text-decoration: none;
       }
     }
@@ -77,22 +64,21 @@
     padding-right: 0;
     padding-top: 62px;
     h2{
-      font-family: source_sans_proregular,sans-serif;
+      font-family: "Source Sans",sans-serif;
       font-size: 13px;
       line-height: 51px;
       font-weight: 700;
       text-transform: uppercase;
       color: #008ed6;
-      letter-spacing: 0.9px;
-      margin-left: 1px;
+      letter-spacing: 2.25px;
     }
     h1{
-      font-family: source_sans_proregular,sans-serif;
-      font-size: 42px;
+      font-family: "Source Sans",sans-serif;
+      font-size: 46px;
       line-height: 41px;
       font-weight: 700;
       text-transform: none;
-      letter-spacing: 0.5px;
+      letter-spacing: 1.5px;
       color: #ffffff;
     }
     h1:last-child{
@@ -118,26 +104,26 @@
     flex-direction: row;
     margin-top: 60px;
     font-size: 12px;
-    margin-left: 3px;
-
     .blue-button {
-      font-family: source_sans_proregular, sans-serif;
+      font-family: "Source Sans", sans-serif;
       color: #ffffff;
-      width: 158px;
+      width: 160px;
       height: 50px;
       font-weight: 700;
       background-color: #008ed6;
       margin-right: 20px;
       border-radius: 3px;
+      letter-spacing: 1.5px;
       border: 0;
       box-shadow: 0 0 3px 0 rgba(3, 3, 3, 0.1);
     }
 
     .glass-button {
-      font-family: source_sans_proregular, sans-serif;
+      font-family: "Source Sans", sans-serif;
       font-weight: 700;
-      width: 158px;
+      width: 161px;
       height: 50px;
+      letter-spacing: 1.4px;
       background: none;
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 5px;
@@ -170,23 +156,23 @@
       padding-top: 46px;
 
       h1 {
-        font-family: source_sans_proregular, sans-serif;
+        font-family: "Source Sans", sans-serif;
         font-size: 14px;
         line-height: 48px;
         font-weight: 700;
-        letter-spacing: 0.1px;
+        letter-spacing: 1.8px;
         color: #008ed6;
         margin-right: -1px;
       }
 
       span {
+        font-family: "Source Sans", sans-serif;
         font-size: 33px;
         font-weight: 600;
         text-transform: none;
-        letter-spacing: -0.4px;
+        letter-spacing: 1.8px;
         color: #1a1a1a;
-        margin-top: -15px;
-        margin-left: -2px;
+        margin-top: -13px;
       }
     }
   }
@@ -215,23 +201,23 @@
       }
 
       span {
-        font-family: source_sans_proregular, sans-serif;
+        font-family: "Source Sans", sans-serif;
         font-size: 23px;
         line-height: 22px;
         font-weight: 400;
         color: #1a1a1a;
         text-align: center;
         margin-top: 32px;
-        letter-spacing: -0.6px;
-        margin-left: -9px;
+        letter-spacing: 0.5px;
+        margin-left: -5px;
       }
       span:last-child{
         font-size: 17px;
         line-height: 26px;
         color: #999999;
-        margin-top: 15px;
-        letter-spacing: 0;
-        width: 240px;
+        margin-top: 14px;
+        letter-spacing: 0.5px;
+        width: 251px;
       }
       .col-3:last-child {
         span {
@@ -265,21 +251,22 @@
         margin-left: 29px;
         .details-title{
           margin-top: 38px;
-          font-family: source_sans_proregular,sans-serif;
+          font-family: "Source Sans",sans-serif;
           font-size: 13px;
           line-height: 48px;
           font-weight: 700;
           text-transform: uppercase;
           color: #008ed6;
-          letter-spacing: 0.95px;
+          letter-spacing: 2.1px;
           margin-left: 2px;
         }
         span:nth-child(2){
+          font-family: "Source Sans",sans-serif;
           line-height: 33px;
           font-size: 34px;
           font-weight: 600;
           text-transform: none;
-          letter-spacing: -0.7px;
+          letter-spacing: 1.4px;
           color: #1a1a1a;
         }
         .line-wrapper {
@@ -299,15 +286,15 @@
         .details-text{
           width: 470px;
           font-size: 18px;
-          line-height: 27px;
+          line-height: 26px;
           font-weight: 400;
           text-transform: none;
-          letter-spacing: -0.50px;
+          letter-spacing: -0.5px;
           color: #999999;
           margin-top: -10px;
         }
         .setting{
-          margin-top: 14px;
+          margin-top: 17px;
           margin-left: -12px;
           .col-1{
             display: flex;
@@ -352,7 +339,7 @@
               letter-spacing: -0.7px;
             }
             span:first-child{
-              letter-spacing: -0.95px;
+              letter-spacing: -0.9px;
             }
           }
           span:nth-child(3){
@@ -381,20 +368,21 @@
       margin-left: -18px;
       .details-title{
         margin-top: 47px;
-        font-family: source_sans_proregular,sans-serif;
+        font-family: "Source Sans",sans-serif;
         font-size: 13px;
         line-height: 48px;
         font-weight: 700;
         text-transform: uppercase;
         color: #008ed6;
-        letter-spacing: 1px;
+        letter-spacing: 2.1px;
         margin-left: 4px;
       }
       span{
+        font-family: "Source Sans",sans-serif;
         font-size: 34px;
         font-weight: 600;
         text-transform: none;
-        letter-spacing: -1.1px;
+        letter-spacing: 1.5px;
         color: #1a1a1a;
         margin-top: -9px;
         margin-left: 2px;
@@ -404,7 +392,7 @@
         flex-direction: row;
         display: flex;
         justify-content: space-between;
-        margin-top: 32px;
+        margin-top: 30px;
         width: 40px;
         margin-left: 3px;
 
@@ -416,7 +404,7 @@
       }
       .details-text{
         width: 461px;
-        font-family: source_sans_proregular,sans-serif;
+        font-family: "Source Sans",sans-serif;
         font-size: 16px;
         font-weight: 400;
         text-transform: none;
@@ -459,21 +447,22 @@
         justify-content: center;
         flex-direction: column;
           .text-title{
-            font-family: source_sans_proregular,sans-serif;
+            font-family: "Source Sans",sans-serif;
             font-size: 14px;
             line-height: 64px;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.27px;
+            letter-spacing: 1.8px;
             color: #008ed6;
             margin-left: 64px;
             margin-top: -8px;
           }
         span{
-          font-size: 32px;
+          font-family: "Source Sans",sans-serif;
+          font-size: 35px;
           font-weight: 600;
           text-transform: none;
-          letter-spacing: -0.4px;
+          letter-spacing: 1px;
           color: #ffffff;
           margin-top: -16px;
           margin-left: 27px;
@@ -483,7 +472,7 @@
           flex-direction: row;
           display: flex;
           justify-content: space-between;
-          margin-top: 41px;
+          margin-top: 36px;
           width: 40px;
           margin-left: 130px;
           .lines {
@@ -504,18 +493,17 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-top: 65px;
+        margin-top: 58px;
 
         span {
-          font-family: source_sans_proregular, sans-serif;
+          font-family: "Source Sans", sans-serif;
           font-size: 22px;
           line-height: 32px;
           font-style: italic;
           font-weight: 400;
           color: #ffffff;
-          margin-top: -26px;
-          word-spacing: 0.1px;
-          letter-spacing: -0.2px;
+          margin-top: -25px;
+          letter-spacing: 0.7px;
         }
 
         .author {
@@ -535,7 +523,7 @@
             margin-top: 37px;
 
             span {
-              font-family: source_sans_proregular, sans-serif;
+              font-family: "Source Sans", sans-serif;
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
@@ -548,7 +536,7 @@
             span:last-child {
               font-size: 14px;
               font-weight: 700;
-              letter-spacing: -1.3px;
+              letter-spacing: 0.3px;
               margin-left: 25px;
               font-style: normal;
               line-height: 23px;
@@ -565,15 +553,15 @@
         flex-direction: column;
 
         span {
-          font-family: source_sans_proregular, sans-serif;
+          font-family: "Source Sans", sans-serif;
           font-size: 22px;
           line-height: 32px;
           font-style: italic;
           font-weight: 400;
           color: #ffffff;
           margin-left: 17px;
-          margin-top: 40px;
-          letter-spacing: -0.1px;
+          margin-top: 36px;
+          letter-spacing: 0.5px;
         }
 
         .author2 {
@@ -590,23 +578,24 @@
           .author-span2 {
             display: flex;
             flex-direction: column;
-            margin-top: -30px;
+            margin-top: -27px;
 
             span {
-              font-family: source_sans_proregular, sans-serif;
+              font-family: "Source Sans", sans-serif;
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
               line-height: 60px;
               color: #ffffff;
               margin-left: 24px;
-              letter-spacing: -0.7px;
+              letter-spacing: 0.2px;
             }
 
             span:last-child {
+              font-family: "Source Sans", sans-serif;
               font-size: 14px;
               font-weight: 700;
-              letter-spacing: -1.12px;
+              letter-spacing: 0.4px;
               margin-left: 25px;
               font-style: normal;
               line-height: 23px;
@@ -666,18 +655,17 @@
           line-height: 48px;
           font-weight: 600;
           color: #ffffff;
-          letter-spacing: -1.5px;
+          letter-spacing: 1.5px;
           margin-left: 2px;
-          word-spacing: 2px;
         }
         span:last-child{
-          letter-spacing: -0.7px;
+          letter-spacing: 0.72px;
           font-family: "Source sans light", sans-serif;
           font-weight: 300;
           color: #ffffff;
           font-size: 34px;
           line-height: 48px;
-          margin-left: -5px;
+          margin-left: -1px;
         }
       }
       .col-5{
@@ -685,7 +673,7 @@
         margin-top: -1px;
         display: flex;
         button:first-child{
-          font-family: source_sans_proregular, sans-serif;
+          font-family: "Source Sans", sans-serif;
           display: flex;
           font-size: 14px;
           justify-content: center;
@@ -695,14 +683,14 @@
           text-transform: uppercase;
           color: #ffffff;
           width: 158px;
-          letter-spacing: -1.3px;
+          letter-spacing: 0.4px;
           height: 50px;
           background-color: rgba(0, 142, 214, 0);
           border: 1px solid rgba(255, 255, 255, 0.2);
           margin-left: 134px;
         }
         button:last-child{
-          font-family: source_sans_proregular, sans-serif;
+          font-family: "Source Sans", sans-serif;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -710,7 +698,7 @@
           line-height: 48px;
           font-weight: 700;
           text-transform: uppercase;
-          letter-spacing: -1.4px;
+          letter-spacing: 0.4px;
           color: #ffffff;
           width: 160px;
           height: 50px;
@@ -740,22 +728,23 @@
     margin-left: -22px;
 
     .text-title {
-      font-family: source_sans_proregular, sans-serif;
+      font-family: "Source Sans", sans-serif;
       font-size: 14px;
       line-height: 63px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.27px;
+      letter-spacing: 1.7px;
       color: #008ed6;
       margin-left: 144px;
       margin-top: -8px;
     }
 
     span {
-      font-size: 32px;
+      font-family: "Source Sans", sans-serif;
+      font-size: 34px;
       font-weight: 600;
       text-transform: none;
-      letter-spacing: -0.4px;
+      letter-spacing: 1.2px;
       color: black;
       margin-top: -16px;
       margin-left: 107px;
@@ -766,7 +755,7 @@
       flex-direction: row;
       display: flex;
       justify-content: space-between;
-      margin-top: 41px;
+      margin-top: 38px;
       width: 40px;
       margin-left: 210px;
 
@@ -810,15 +799,15 @@
       .row {
         border: 1px solid;
         justify-content: center;
-        font-family: source_sans_proregular, sans-serif;
+        font-family: "Source Sans", sans-serif;
         font-size: 24px;
         line-height: 20px;
         font-weight: 700;
+        letter-spacing: 1px;
         color: #1a1a1a;
-        padding-top: 27px;
+        padding-top: 22px;
         padding-bottom: 21px;
       }
-
       .row:nth-child(2) {
         display: flex;
         flex-direction: column;
@@ -839,7 +828,7 @@
           display: flex;
           flex-direction: row;
           align-items: flex-start;
-          margin-left: 15px;
+          margin-left: 18px;
 
           span {
             font-family: 'Source Sans', sans-serif;
@@ -850,7 +839,8 @@
           }
 
           span:nth-child(1) {
-            top: 6px;
+            top: 8px;
+            right: 2px;
             position: relative;
           }
 
@@ -863,9 +853,8 @@
         }
 
       }
-
       .row:nth-child(3) {
-        font-family: source_sans_proregular, sans-serif;
+        font-family: "Source Sans", sans-serif;
         font-size: 18px;
         line-height: 26px;
         font-weight: 400;
@@ -876,8 +865,8 @@
           text-align: center;
           width: 201px;
           margin-left: -4px;
-          letter-spacing: -0.5px;
-          padding-top: 1px;
+          letter-spacing: -0.1px;
+          padding-top: 2px;
           padding-bottom: 21px;
         }
 
@@ -889,10 +878,10 @@
           height: 52px;
           background-color: #ffffff;
           border: 1px solid #e0e0e0;
-          font-family: source_sans_proregular, sans-serif;
+          font-family: "Source Sans", sans-serif;
           font-size: 14px;
           line-height: 50px;
-          letter-spacing: -1.3px;
+          letter-spacing: 0.4px;
           font-weight: 700;
           text-transform: uppercase;
           color: #008ed6;
@@ -903,11 +892,11 @@
       margin-left: 27px;
 
       .row {
-        letter-spacing: -2.3px;
+        letter-spacing: 0.7px;
       }
       .row:nth-child(2){
         .columns{
-          margin-left: 2px;
+          margin-left: 4px;
         }
       }
       .row:nth-child(3) {
@@ -923,11 +912,11 @@
       margin-left: 27px;
       padding-right: 23px;
       .row{
-        letter-spacing: -2.3px;
+        letter-spacing: 0.7px;
       }
       .row:nth-child(2){
         .columns{
-          margin-left: 2px;
+          margin-left: 6px;
         }
       }
       .row:nth-child(3) {
@@ -943,11 +932,11 @@
     .col-3:nth-child(4) {
       margin-left: 28px;
       .row{
-        letter-spacing: -1.9px;
+        letter-spacing: 1px;
       }
       .row:nth-child(2){
         .columns{
-          margin-left: 2px;
+          margin-left: 6px;
         }
       }
       .row:nth-child(3) {
@@ -969,7 +958,7 @@
 }
 .contact-container {
   width: 1170px;
-
+  padding-bottom: 363px;
   .col-2 {
     margin-top: 91px;
     display: flex;
@@ -977,22 +966,23 @@
     flex-direction: column;
 
     .text-title {
-      font-family: source_sans_proregular, sans-serif;
+      font-family: "Source Sans", sans-serif;
       font-size: 14px;
       line-height: 63px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.27px;
+      letter-spacing: 1.6px;
       color: #008ed6;
       margin-left: 31px;
       margin-top: -6px;
     }
 
     span {
-      font-size: 32px;
+      font-family: "Source Sans",sans-serif;
+      font-size: 33px;
       font-weight: 600;
       text-transform: none;
-      letter-spacing: 0.1px;
+      letter-spacing: 1.9px;
       color: black;
       margin-top: -14px;
       margin-left: 3px;
@@ -1003,7 +993,7 @@
       flex-direction: row;
       display: flex;
       justify-content: space-between;
-      margin-top: 38px;
+      margin-top: 37px;
       width: 40px;
       margin-left: 65px;
 
@@ -1030,12 +1020,13 @@
         margin-left: 4px;
       }
       span{
-        font-family: source_sans_proregular, sans-serif;
+        font-family: "Source Sans", sans-serif;
         margin-top: 27px;
         text-align: center;
         font-size: 18px;
         line-height: 26px;
         font-weight: 400;
+        letter-spacing: 0.1px;
         color: #999999;
         width: 169px;
       }
@@ -1048,7 +1039,6 @@
       span{
         margin-top: 32px;
         margin-left: 5px;
-        letter-spacing: -0.5px;
       }
     }
     .col-4:nth-child(2){
@@ -1059,12 +1049,129 @@
       span{
         margin-top: 27px;
         margin-left: 14px;
-        letter-spacing: -0.8px;
+        letter-spacing: 0.2px;
       }
       span:last-child{
         margin-top: 0;
         width: 122px;
         margin-right: 3px;
+        letter-spacing: 0.1px;
+      }
+    }
+  }
+}
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #15141a;
+
+  .footer-container {
+    width: 1170px;
+    padding-top: 55px;
+    .row {
+      .col-4 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        div {
+          display: flex;
+          justify-content: center;
+          margin-left: 70px;
+          margin-right: 42px;
+          i {
+            font-size: 18px;
+            opacity: 0.2;
+            color: #ffffff;
+            margin-right: 34px;
+          }
+
+          i:hover {
+            color: #00b3ff;
+            opacity: 1;
+          }
+        }
+
+        span {
+          font-family: "Source Sans", sans-serif;
+          font-size: 14px;
+          line-height: 48px;
+          font-weight: 600;
+          letter-spacing: 0.2px;
+          text-transform: uppercase;
+          color: #444348;
+          margin-top: 12px;
+          margin-left: -2px;
+        }
+      }
+    }
+  }
+  .form{
+    background-color: #15141a;
+    z-index: 10;
+    width: 770px;
+    height: 360px;
+    position: absolute;
+    bottom: -4316px;
+    .col-6{
+      padding-right: 19px;
+      padding-top: 38px;
+      input{
+        font-family: 'Source Sans',sans-serif;
+        font-size: 14px;
+        line-height: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-left: 18px;
+        background-color: transparent;
+        margin-top: 20px;
+        width: 300px;
+        height: 50px;
+        border: 1px solid rgba(255,255,255,0.2);
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .col-5{
+      padding-right: 28px;
+      padding-top: 58px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      textarea{
+        font-family: "Source Sans", sans-serif;
+        font-size: 14px;
+        line-height: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-left: 19px;
+        background-color: transparent;
+        width: 300px;
+        height: 191px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-right: 5px;
+      }
+      button{
+        margin-top: 21px;
+        margin-right: 5px;
+        width: 160px;
+        height: 50px;
+        letter-spacing: 0.3px;
+        border: 0;
+        border-radius: 6px;
+        background-color: #008ed6;
+        box-shadow: 0 0 3px 0 rgb(3 3 3 / 10%);
+        font-family: "Source Sans", sans-serif;
+        font-size: 14px;
+        line-height: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
       }
     }
   }

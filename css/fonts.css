@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Source sans Bold";
+    src: url("../fonts/sorce sans/sourcesanspro-bold-webfont.woff") format("woff"),
+    url("../fonts/sorce sans/sourcesanspro-bold-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans light";
+    src: url("../fonts/sorce sans/sourcesanspro-light-webfont.woff") format("woff"),
+    url("../fonts/sorce sans/sourcesanspro-light-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/quicksand/quicksand-variablefont_wght-webfont.woff") format("woff"),
+    url("../fonts/quicksand/quicksand-variablefont_wght-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans SemiBold";
+    src: url("../fonts/sorce sans/sourcesanspro-semibold-webfont.woff") format("woff"),
+    url("../fonts/sorce sans/sourcesanspro-semibold-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans";
+    src: url("../fonts/sorce sans/sourcesanspro-regular-webfont.woff") format("woff"),
+    url("../fonts/sorce sans/sourcesanspro-regular-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Source sans Italic";
+    src: url("../fonts/sorce sans/sourcesanspro-italic-webfont.woff") format("woff"),
+    url("../fonts/sorce sans/sourcesanspro-italic-webfont.woff2") format("woff2");
+}
