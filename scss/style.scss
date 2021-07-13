@@ -778,7 +778,6 @@
       }
     }
   }
-
   .row-columns {
     display: flex;
     justify-content: center;
@@ -941,7 +940,6 @@
         }
       }
     }
-
     .col-3:nth-child(4) {
       margin-left: 28px;
       .row{
@@ -964,6 +962,116 @@
     }
   }
 }
+.contact-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+  width: 1170px;
+
+  .col-2 {
+    margin-top: 91px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .text-title {
+      font-family: source_sans_proregular, sans-serif;
+      font-size: 14px;
+      line-height: 63px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.27px;
+      color: #008ed6;
+      margin-left: 31px;
+      margin-top: -6px;
+    }
+
+    span {
+      font-size: 32px;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0.1px;
+      color: black;
+      margin-top: -14px;
+      margin-left: 3px;
+    }
+
+    .line-wrapper {
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 38px;
+      width: 40px;
+      margin-left: 65px;
+
+      .lines {
+        width: 19px;
+        display: flex;
+        border-top: 2px solid #008ed6;
+        margin-left: 0;
+      }
+    }
+  }
+  .contact-icon{
+    display: flex;
+    margin-right: -14px;
+    .col-4{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      letter-spacing: -1px;
+      padding-right: 43px;
+      padding-top: 5px;
+      img{
+        margin-top: 6px;
+        margin-left: 4px;
+      }
+      span{
+        font-family: source_sans_proregular, sans-serif;
+        margin-top: 27px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #999999;
+        width: 169px;
+      }
+    }
+    .col-4:last-child{
+      img {
+        margin-top: 11px;
+        margin-left: 22px;
+      }
+      span{
+        margin-top: 32px;
+        margin-left: 5px;
+        letter-spacing: -0.5px;
+      }
+    }
+    .col-4:nth-child(2){
+      img {
+        margin-top: 6px;
+        margin-left: 14px;
+      }
+      span{
+        margin-top: 27px;
+        margin-left: 14px;
+        letter-spacing: -0.8px;
+      }
+      span:last-child{
+        margin-top: 0;
+        width: 122px;
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+
+
 
 
 
