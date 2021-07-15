@@ -1,0 +1,80 @@
+@mixin line {
+  .line-wrapper {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+
+    .lines {
+      width: 19px;
+      display: flex;
+      border-top: 2px solid #008ed6;
+    }
+  }
+}
+
+@mixin buttons{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+
+    .blue-button {
+      font-family: "Source Sans", sans-serif;
+      color: #ffffff;
+      width: 160px;
+      height: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: #008ed6;
+      border-radius: 3px;
+      letter-spacing: 1.5px;
+      border: 0;
+      box-shadow: 0 0 3px 0 rgba(3, 3, 3, 0.1);
+    }
+    .glass-button {
+      text-transform: uppercase;
+      font-family: "Source Sans", sans-serif;
+      font-weight: 700;
+      width: 161px;
+      height: 50px;
+      letter-spacing: 1.4px;
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      color: #ffffff;
+    }
+  }
+@mixin button_price{
+    width: 162px;
+    height: 52px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    font-family: "Source Sans", sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+  }
+@mixin wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@mixin button_form{
+  width: 160px;
+  height: 50px;
+  letter-spacing: 0.3px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #008ed6;
+  box-shadow: 0 0 3px 0 rgb(3 3 3 / 10%);
+  font-family: "Source Sans", sans-serif;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}

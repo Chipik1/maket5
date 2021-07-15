@@ -3,34 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>maket5</title>
+    <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="scss/style.scss">
-  <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/main.scss">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <script src="bootstrap-4.6.0-dist/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/d0bc03d464.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 <div class="background">
     <div class="nav-wrapper">
         <div class="nav-menu row">
-            <div class="col-2">
-                <div class="logo">
-                    <span>LUCID</span>
-                    <span>onepage theme</span>
-                </div>
-            </div>
-            <div class="col-5">
-            </div>
-            <div class="col-5 menu-text">
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">About</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contact</a>
+            <div class="col-12">
+
+
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="navbar-brand" href="#">
+                        <div class="logo">
+                            <span>LUCID</span>
+                            <span>onepage theme</span>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto menu-text">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
     <div class="row head-text">
@@ -44,11 +68,11 @@
             <button class="glass-button">VIEW FEATURES</button>
         </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2">
 
         </div>
         <div class="col-5 image-phone">
-            <img src="img/devices_kopia_1539.png"/>
+            <img src="img/devices_kopia_1539.png" class="responsive"/>
         </div>
     </div>
 </div>
@@ -150,9 +174,10 @@
                     <span class="lines">&#160</span><span class="lines">&#160</span>
                 </div>
             </div>
+            <div class="col-4"></div>
         </div>
         <div class="row feedback-container">
-            <div class="col-6 feed1">
+            <div class="feed1">
                 <span>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</span>
                 <div class="author">
                     <img src="img/elipsa_3_1115.png">
@@ -162,7 +187,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 feed2">
+            <div class="feed2">
+                <span>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.</span>
+                <div class="author2">
+                    <img src="img/elipsa_3_1374.png">
+                    <div class="author-span2">
+                        <span>Dean Winchester</span>
+                        <span>UX DESIGNER, GOOGLE INC.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feed1">
+                <span>Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</span>
+                <div class="author">
+                    <img src="img/elipsa_3_1115.png">
+                    <div class="author-span">
+                        <span>John Doe</span>
+                        <span>CEO, THE RIVERS COMPANY</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feed2">
                 <span>A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.</span>
                 <div class="author2">
                     <img src="img/elipsa_3_1374.png">
@@ -174,7 +219,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <div class="ad-wrapper">
     <div class="ad-container">
@@ -184,8 +228,8 @@
                 <span>Get this great theme now!</span>
             </div>
             <div class="col-5">
-                <button>view features</button>
-                <button>download now</button>
+                <button class="blue-button">view features</button>
+                <button class="glass-button">download now</button>
             </div>
         </div>
     </div>
